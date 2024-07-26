@@ -1,11 +1,15 @@
+"use client";
+import Nav from "@/components/Nav";
+import { Container } from "@mui/material";
 import Box from "@mui/material/Box";
-import Typography from "@mui/material/Typography";
 import React from "react";
 
 const Home = () => {
   return (
     <Box>
-      <Typography variant="h1">Home</Typography>
+      <Container maxWidth = "sm">
+        <Nav  />
+      </Container>
     </Box>
   );
 };
