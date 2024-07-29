@@ -10,8 +10,8 @@ const Nav = () => {
     const theme = useTheme();
     const matches = useMediaQuery(theme.breakpoints.down("sm"));
 
-    const navLinks = [{ src : "/githublight.png", link : "https://github.com/abhay2jn" },
-      {src : "/mail.png", link : "mailto:abhayforwork02@gmail.com" },
+    const navLinks = [{ src : "/github.png", link : "https://github.com/abhay2jn" },
+      {src : "/email.png", link : "mailto:abhayforwork02@gmail.com" },
       {src : "/linkedin.png", link : "https://www.linkedin.com/in/abhay2jain" },
       {src: "/x.png", link : "https://twitter.com/abhay2jn" },
     ];
