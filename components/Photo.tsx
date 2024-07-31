@@ -25,7 +25,7 @@ function Photo() {
             }}>Abhay Jain</u>.</Typography>
             <Typography variant='body1' sx={{margin : "1.5rem"}}>Based in India, I’m a full-stack developer passionate about building accessiable website that are nice.
             </Typography>
-            <Button link='https://twitter.com/abhay2jn'>CONTACT ME</Button>
+            <Button link='mailto:abhayforwork02@gmail.com'>CONTACT ME</Button>
          </Box>
     </Box>
   )
