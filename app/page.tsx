@@ -1,6 +1,7 @@
 "use client";
 import Nav from "@/components/Nav";
 import Photo from "@/components/Photo";
+import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 import { Container } from "@mui/material";
 import Box from "@mui/material/Box";
@@ -13,6 +14,7 @@ const Home = () => {
         <Nav  />
         <Photo />
         <Skills />
+        <Projects />
       </Container>
     </Box>
   );
