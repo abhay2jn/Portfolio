@@ -22,8 +22,20 @@ const theme = createTheme({
       fontWeight: 700,
       color: COLOR.gray,
     },
+    h4: {
+      fontSize: "1.5rem",
+      fontWeight: 700,
+      color: COLOR.gray,
+      lineHeight: "2rem",
+      textTransform: "uppercase",
+    },
     body1 : {
       fontSize : "1rem",
+      fontWeight : 500,
+      color: COLOR.gray,
+    },
+    body2 : {
+      fontSize : "1.125rem",
       fontWeight : 500,
       color: COLOR.gray,
     }
