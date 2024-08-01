@@ -10,14 +10,17 @@ const theme = createTheme({
     h1: {
       fontSize: "1.42rem",
       fontWeight: 800,
+      color: COLOR.gray,
     },
     h2 : {
       fontSize: "2.5rem",
       fontWeight: 700,
+      color: COLOR.gray,
     },
     h3: {
       fontSize: "2rem",
       fontWeight: 700,
+      color: COLOR.gray,
     },
     body1 : {
       fontSize : "1rem",
