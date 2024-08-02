@@ -19,6 +19,7 @@ const Nav = () => {
         maxWidth: matches ? "10.875rem" : "none",
         justifyContent: matches ? "none" : "space-between",
         width: matches ? "auto" : "100%",
+        marginTop: matches ? "none" : "2.4375rem",
     }} >
         <Typography sx = {{margin : matches ? "1.25rem" : 0}} variant="h1">Abhay Jain</Typography>
         <Box sx={{ display  :"flex", justifyContent : "space-between", width : matches ? "10.875rem" : "12.5rem" }}>
