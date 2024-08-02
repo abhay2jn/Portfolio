@@ -5,23 +5,20 @@ import React from 'react'
 import { useTheme } from "@mui/material";
 import { useMediaQuery } from "@mui/material";
 import NavLink from "./NavLink";
+import { navLinks } from '@/data';
 
 const Nav = () => {
     const theme = useTheme();
     const matches = useMediaQuery(theme.breakpoints.down("sm"));
-
-    const navLinks = [{ src : "/github.png", link : "https://github.com/abhay2jn" },
-      {src : "/email.png", link : "mailto:abhayforwork02@gmail.com" },
-      {src : "/linkedin.png", link : "https://www.linkedin.com/in/abhay2jain" },
-      {src: "/x.png", link : "https://twitter.com/abhay2jn" },
-    ];
 
 
   return (
     <Box sx = {{ display : "flex", justifyContent : "center"}}>
     <Box sx = {{display : "flex", flexDirection : matches ? "column" : "row", alignItems : "center",
         alignSelf : "center",
-        maxWidth: matches ? "10.875rem" : "none"
+        maxWidth: matches ? "10.875rem" : "none",
+        justifyContent: matches ? "none" : "space-between",
+        width: matches ? "auto" : "100%",
     }} >
         <Typography sx = {{margin : matches ? "1.25rem" : 0}} variant="h1">Abhay Jain</Typography>
         <Box sx={{ display  :"flex", justifyContent : "space-between", width : matches ? "10.875rem" : "12.5rem" }}>
