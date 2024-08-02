@@ -12,7 +12,8 @@ function Photo() {
   return (
     <Box sx={{ display : "flex",
      flexDirection : matches ? "column" : 'row-reverse'
-     , alignItems : 'center'}}>
+     , alignItems : 'center',
+     transform: "translateY(-22px)"}}>
         <Image src="/pankaj_swag.png" 
         alt='swag' 
         width={174}
