@@ -7,6 +7,7 @@ const theme = createTheme({
     mode: "dark",
   },
   typography: {
+    fontFamily: "Montserrat",
     h1: {
       fontSize: "1.42rem",
       fontWeight: 800,
@@ -33,6 +34,7 @@ const theme = createTheme({
       fontSize : "1rem",
       fontWeight : 500,
       color: COLOR.gray,
+      lineHeight: "1.62rem"
     },
     body2 : {
       fontSize : "1.125rem",
