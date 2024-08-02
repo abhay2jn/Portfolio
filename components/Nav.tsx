@@ -13,7 +13,7 @@ const Nav = () => {
 
 
   return (
-    <Box sx = {{ display : "flex", justifyContent : "center"}}>
+    <Box sx = {{ display : "flex", justifyContent : "center", position: "relative"}}>
     <Box sx = {{display : "flex", flexDirection : matches ? "column" : "row", alignItems : "center",
         alignSelf : "center",
         maxWidth: matches ? "10.875rem" : "none",
