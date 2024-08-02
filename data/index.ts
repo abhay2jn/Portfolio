@@ -1,3 +1,10 @@
+export const navLinks = [
+    { src : "/github.png", link : "https://github.com/abhay2jn" },
+    {src : "/email.png", link : "mailto:abhayforwork02@gmail.com" },
+    {src : "/linkedin.png", link : "https://www.linkedin.com/in/abhay2jain" },
+    {src: "/x.png", link : "https://twitter.com/abhay2jn" },
+  ];
+
 export const skills = [
     {skill : "HTML", level : "Intermediate"},
     {skill : "CSS", level : "Intermediate"},
