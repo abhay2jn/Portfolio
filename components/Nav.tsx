@@ -21,7 +21,7 @@ const Nav = () => {
         width: matches ? "auto" : "100%",
         marginTop: matches ? "none" : "2.4375rem",
     }} >
-        <Typography sx = {{margin : matches ? "1.25rem" : 0}} variant="h1">Abhay Jain</Typography>
+        <Typography sx = {{margin : matches ? "1.25rem" : 0}} variant="h1">Abhay</Typography>
         <Box sx={{ display  :"flex", justifyContent : "space-between", width : matches ? "10.875rem" : "12.5rem" }}>
             {navLinks.map((navLink) => {
               return(
