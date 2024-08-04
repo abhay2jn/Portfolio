@@ -12,7 +12,7 @@ function Button({ children, link, sx} : { children : React.ReactElement | string
       , ...sx
     }}>
       <u 
-    style={{textDecoration: "underline", textDecorationColor : 'blueviolet',
+    style={{textDecoration: "underline", textDecorationColor : COLOR.blueVoilet,
      textUnderlineOffset : "1rem",
      textDecorationThickness: "0.25rem"}} >
       {children}</u></MUIButton>
