@@ -21,7 +21,7 @@ const Contact = () => {
     justifyContent: matches ? "none" : "space-between"}}>
       <Box sx={{width : matches ? "auto" : "27.8125rem"}}>
         <Typography variant='h2' sx={{fontSize : matches ? "auto" : "5.5rem"}}>Contact</Typography>
-        <Typography variant={matches ? 'body1' : "body2"} sx={{marginTop: "0.4rem"}}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, nisi laborum rerum doloribus sapiente quas optio q</Typography>
+        <Typography variant={matches ? 'body1' : "body2"} sx={{marginTop: "0.4rem"}}>Thank you for visiting my portfolio! If you have any questions, project inquiries, or just want to say hello, feel free to reach out to me through clicking the send message button.</Typography>
       </Box>
         <FormControl sx={{width: matches ? "auto"  : "27.8125rem"}}>
             <TextField variant='standard' label="Name"id='name' />
