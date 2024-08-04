@@ -10,7 +10,7 @@ import React from "react";
 
 const Home = () => {
   return (
-    <Box sx={{ backgroundColor : "#151515"}}>
+    <Box sx={{ backgroundColor : "#111111"}}>
       <Container maxWidth = "lg">
         <Nav  />
         <Photo />
