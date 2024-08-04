@@ -4,6 +4,7 @@ import Image from 'next/image'
 import React from 'react'
 import Button from './Button'
 import { useMediaQuery, useTheme } from '@mui/material'
+import { COLOR } from '@/styles/colors'
 
 
 function Photo() {
@@ -32,7 +33,7 @@ function Photo() {
          <Box sx={{ textAlign : matches ? "center": "left", maxWidth : matches ? "none" : "44.3125rem",
           marginTop : matches ? "none" : "8.0625rem"
           }}>
-            <Typography variant='h2' sx={{fontSize: matches ? "auto" : "5.5rem"}}>Nice to meet you! I’m <u style={{textDecoration: "underline", textDecorationColor : "blueviolet",
+            <Typography variant='h2' sx={{fontSize: matches ? "auto" : "5.5rem"}}>Nice to meet you! I’m <u style={{textDecoration: "underline", textDecorationColor : COLOR.blueVoilet,
                 textUnderlineOffset: "0.4rem"
             }}>Abhay Jain</u>.</Typography>
             <Typography variant={matches ?'body1' : "body2"} sx={{margin : "1.5rem 0" }}>Based in India, I’m a full-stack developer passionate about building accessiable website that are nice.
