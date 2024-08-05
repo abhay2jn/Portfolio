@@ -21,7 +21,7 @@ const Skills = () => {
       justifyContent : matches ? "auto" : "space-evenly"}}>
         <Divider />
         {skills.map((skill) => {
-            return <Skill skill={skill.skill} level={skill.level} key={skill.level} />
+            return <Skill skill={skill.skill} level={skill.level} key={`${skill}-${skill}`} />
         })}
         {matches ? <Divider /> : null}
     </Box>
