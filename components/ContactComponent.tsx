@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { TextField, FormControl, FormHelperText, useTheme, useMediaQuery, SxProps, Box } from '@mui/material';
+import { TextField, FormControl, useTheme, useMediaQuery, Box } from '@mui/material';
 import axios from 'axios';
 import MUIButton from "@mui/material/Button"
 import { COLOR } from '@/styles/colors';
@@ -30,7 +30,7 @@ const ContactComponent: React.FC = () => {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:5000/send-email', formValues);
+      await axios.post('/api/send-email', formValues);
       alert('Message successfully sent!');
     } catch (error) {
       console.error('Error submitting form:', error);
@@ -67,8 +67,12 @@ const ContactComponent: React.FC = () => {
         multiline rows={4}
         required
         />
+      <MUIButton sx={{margin:"2rem 0 1rem 0",color : COLOR.white, fontWeight : 700, fontSize: "1rem", padding: 0}} type='submit'> <u 
+    style={{textDecoration: "underline", textDecorationColor : COLOR.blueVoilet,
+     textUnderlineOffset : "1rem",
+     textDecorationThickness: "0.25rem"}} >
+      SEND MESSAGE</u></MUIButton>
       </FormControl>
-      <MUIButton sx={{margin:"2rem 0 1rem 0"}} type='submit' variant='contained' >SEND MESSAGE</MUIButton>
     </form>
     </Box>
   );
