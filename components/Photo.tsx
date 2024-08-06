@@ -15,14 +15,14 @@ function Photo() {
      flexDirection : matches ? "column" : 'row-reverse'
      , alignItems : 'center', justifyContent : matches ? "none" : "space-around"}}>
       {matches ? (
-        <Image src="/pankaj_swag.png" 
+        <Image src="/khatri.png" 
         alt='swag' 
         width={174}
         height={383}
         style={{ marginBottom : "2.5rem"}}
          />
       ) : (
-        <Image src="/pankaj_swag.png" 
+        <Image src="/khatri.png" 
         alt='swag' 
         width={445}
         height={720}
