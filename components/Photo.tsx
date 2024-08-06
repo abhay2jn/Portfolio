@@ -13,8 +13,7 @@ function Photo() {
   return (
     <Box sx={{ display : "flex",
      flexDirection : matches ? "column" : 'row-reverse'
-     , alignItems : 'center', justifyContent : matches ? "none" : "space-around",
-     transform: matches ? "translateY(-22px)" : "none"}}>
+     , alignItems : 'center', justifyContent : matches ? "none" : "space-around"}}>
       {matches ? (
         <Image src="/pankaj_swag.png" 
         alt='swag' 
