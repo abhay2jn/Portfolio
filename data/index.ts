@@ -13,8 +13,11 @@ export const skills = [
     {skill : "ReactJS", level : "Intermediate"},
     {skill : "NextJS", level : "Intermediate"},
     {skill : "NodeJS", level : "Intermediate"},
+    {skill : "ExpressJS", level : "Intermediate"},
     {skill : "MongoDB", level : "Intermediate"},
     {skill : "TypeScript", level : "Intermediate"},
+    {skill : "Git", level : "Intermediate"},
+    {skill : "Github", level : "Intermediate"}
 ];
 export const projects = [
     {
