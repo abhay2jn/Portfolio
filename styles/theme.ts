@@ -13,7 +13,7 @@ const theme = createTheme({
       fontWeight: 800,
       color: COLOR.gray,
     },
-    h2 : {
+    h2: {
       fontSize: "2.5rem",
       fontWeight: 700,
       color: COLOR.gray,
@@ -30,17 +30,17 @@ const theme = createTheme({
       lineHeight: "2rem",
       textTransform: "uppercase",
     },
-    body1 : {
-      fontSize : "1rem",
-      fontWeight : 500,
+    body1: {
+      fontSize: "1rem",
+      fontWeight: 500,
       color: COLOR.gray,
-      lineHeight: "1.62rem"
+      lineHeight: "1.62rem",
     },
-    body2 : {
-      fontSize : "1.125rem",
-      fontWeight : 500,
+    body2: {
+      fontSize: "1.125rem",
+      fontWeight: 500,
       color: COLOR.gray,
-    }
+    },
   },
 });
 
