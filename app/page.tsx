@@ -10,9 +10,9 @@ import React from "react";
 
 const Home = () => {
   return (
-    <Box sx={{ backgroundColor : "#111111"}}>
-      <Container maxWidth = "lg">
-        <Nav  />
+    <Box>
+      <Container maxWidth="lg">
+        <Nav />
         <Photo />
         <Skills />
         <Projects />
