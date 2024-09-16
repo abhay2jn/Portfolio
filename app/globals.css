@@ -103,3 +103,11 @@ a {
     color-scheme: dark;
   }
 }
+.light-mode {
+  background-color: lightblue;
+  color: #0000;
+}
+.dark-mode {
+  background-color: #151515;
+  color: #d9d9d9;
+}
