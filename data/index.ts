@@ -22,10 +22,10 @@ export const skills = [
 export const projects = [
   {
     viewProject: "https://abhayjnportfolio.netlify.app/",
-    code: "https://github.com/abhay2jn/E-Commerce-Website",
-    image: "/e-commerce-website.png",
+    code: "https://github.com/abhay2jn/Portfolio",
+    image: "/portfolio.png",
     title: "PORTFOLIO",
-    skills: ["NextJS", "TypeScript", "NodeJS"],
+    skills: ["NextJS", "TypeScript", "CSS", "NodeJS"],
   },
   {
     viewProject: "https://comment-project-three.vercel.app/",
