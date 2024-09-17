@@ -7,7 +7,7 @@ const theme = createTheme({
     mode: "dark",
   },
   typography: {
-    fontFamily: "Montserrat",
+    fontFamily: "Poppins",
     h1: {
       fontSize: "1.42rem",
       fontWeight: 800,
