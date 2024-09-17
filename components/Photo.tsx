@@ -20,19 +20,19 @@ function Photo() {
     >
       {matches ? (
         <Image
-          src="/khatri.png"
-          alt="swag"
+          src="/manInSpace.png"
+          alt="img"
           width={174}
           height={383}
-          style={{ marginBottom: "2.5rem" }}
+          style={{ marginBottom: "2.5rem", marginTop: "2.5rem" }}
         />
       ) : (
         <Image
-          src="/khatri.png"
-          alt="swag"
-          width={445}
+          src="/manInSpace.png"
+          alt="img"
+          width={400}
           height={720}
-          style={{ marginBottom: "2.5rem" }}
+          style={{ marginBottom: "2.5rem", marginTop: "2.5rem" }}
         />
       )}
       <Box
@@ -60,7 +60,7 @@ function Photo() {
           sx={{ margin: "1.5rem 0" }}
         >
           Based in India, I’m a full-stack developer passionate about building
-          accessiable website that are nice.
+          accessiable websites.
         </Typography>
         <Button link="mailto:abhayforwork02@gmail.com">CONTACT ME</Button>
       </Box>
