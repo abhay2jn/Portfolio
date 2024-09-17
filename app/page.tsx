@@ -1,4 +1,5 @@
 "use client";
+import StarsCanvas from "@/components/Background";
 import Contact from "@/components/Contact";
 import Nav from "@/components/Nav";
 import Photo from "@/components/Photo";
@@ -11,6 +12,7 @@ import React from "react";
 const Home = () => {
   return (
     <Box>
+      <StarsCanvas />
       <Container maxWidth="lg">
         <Nav />
         <Photo />
