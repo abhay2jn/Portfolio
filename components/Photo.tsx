@@ -62,7 +62,7 @@ function Photo() {
           Based in India, I’m a full-stack developer passionate about building
           accessiable websites.
         </Typography>
-        <Button link="mailto:abhayforwork02@gmail.com">CONTACT ME</Button>
+        <Button link="mailto:abhay2jn@gmail.com">CONTACT ME</Button>
       </Box>
     </Box>
   );
