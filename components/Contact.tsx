@@ -5,6 +5,7 @@ import { COLOR } from "@/styles/colors";
 import { Container, useMediaQuery, useTheme } from "@mui/material";
 import Nav from "./Nav";
 import ContactComponent from "./ContactComponent";
+import Image from "next/image";
 
 const Contact = () => {
   const theme = useTheme();
@@ -14,6 +15,18 @@ const Contact = () => {
       maxWidth="xl"
       sx={{ backgroundColor: COLOR.darkGray, paddingBottom: "3.75rem" }}
     >
+      <Image
+        src="/pattern-rings.svg"
+        alt="background"
+        width={530}
+        height={129}
+        style={{
+          position: "absolute",
+          transform: matches
+            ? "translate(-350px, 350px)"
+            : "translate(-250px, 280px)",
+        }}
+      />
       <Container maxWidth="lg">
         <Box
           sx={{
