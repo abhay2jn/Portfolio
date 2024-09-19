@@ -1,6 +1,6 @@
 export const navLinks = [
   { src: "/github.png", link: "https://github.com/abhay2jn" },
-  { src: "/email.png", link: "mailto:abhayforwork02@gmail.com" },
+  { src: "/email.png", link: "mailto:abhay2jn@gmail.com" },
   { src: "/linkedin.png", link: "https://www.linkedin.com/in/abhay2jain" },
   { src: "/x.png", link: "https://twitter.com/abhay2jn" },
 ];
@@ -21,11 +21,11 @@ export const skills = [
 ];
 export const projects = [
   {
-    viewProject: "https://abhayjnportfolio.netlify.app/",
-    code: "https://github.com/abhay2jn/Portfolio",
-    image: "/portfolio.png",
-    title: "PORTFOLIO",
-    skills: ["NextJS", "TypeScript", "CSS", "NodeJS"],
+    viewProject: "https://github.com/abhay2jn/E-COMMERCE-STORE",
+    code: "https://github.com/abhay2jn/E-COMMERCE-STORE",
+    image: "/e-commerce-store.png",
+    title: "E-COMMERCE-STORE",
+    skills: ["REACTJS", "JavaScript", "NodeJS", "ExpressJS", "MongoDB"],
   },
   {
     viewProject: "https://comment-project-three.vercel.app/",
@@ -35,11 +35,11 @@ export const projects = [
     skills: ["REACTJS", "JavaScript"],
   },
   {
-    viewProject: "https://fake-users-management-project.vercel.app/",
+    viewProject: "https://github.com/abhay2jn/fake-users-management-project",
     code: "https://github.com/abhay2jn/fake-users-management-project",
     image: "/users.png",
     title: "FAKE-USERS-MANAGEMENT",
-    skills: ["NextJS"],
+    skills: ["NextJS", "JavaScript", "NodeJS"],
   },
   {
     viewProject: "https://to-do-list-eight-mu-87.vercel.app/",
