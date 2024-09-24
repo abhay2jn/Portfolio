@@ -21,7 +21,9 @@ const Projects = () => {
         <Typography variant="h2" sx={{ fontSize: matches ? "auto" : "5.5rem" }}>
           Projects
         </Typography>
-        <Button link="/">RESUME</Button>
+        <Button link="https://drive.google.com/file/d/1Ek9Lj_p2ywNuJFpiGwS0hsQ_XWGs0hhT/view?usp=sharing">
+          RESUME
+        </Button>
       </Box>
       <Box
         sx={{
